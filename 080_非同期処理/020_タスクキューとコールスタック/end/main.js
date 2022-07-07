@@ -10,8 +10,12 @@ function a() {
 
   const startTime = new Date();
   while (new Date() - startTime < 5000);
-
+ 
   console.log('fn a done');
 }
 
+const funcup = function(){
+  console.log("hello"); 
+}
+funcup();
 a();
